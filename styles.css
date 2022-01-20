@@ -1,0 +1,53 @@
+body {
+    background: white;
+    color: black;
+}
+
+.mainContent {
+    text-align:center;
+}
+
+.bigTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;
+    color:black;
+    background: #f14814;
+}
+
+h1 {
+    max-width:30vw;
+    font-size: 5vw
+}
+
+.x-axis text{
+
+    transform: "translate(-10,0)rotate(-45)";
+    text-anchor:"end";
+
+    font-weight: 700;
+
+
+}
+
+.y-axis text{
+
+    font-weight: 700;
+
+
+}
+
+
+.chartLine {
+    stroke-width: 2px;
+    stroke:black
+
+}
+
+.chartCircle {
+
+    fill:white;
+    stroke:#f14814;
+    stroke-width: 2px;
+    cursor: pointer
+
+}
